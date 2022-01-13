@@ -6,6 +6,7 @@ newfilenames = []
 for file in filenames:
     if ".hpp" in file:
         newfilenames.append(file.replace(".hpp", ".h"))
-
+    else:
+        newfilenames.append(file)
 print(newfilenames) 
 # Should be ["program.c", "stdio.h", "sample.h", "a.out", "math.h", "hpp.out"]
