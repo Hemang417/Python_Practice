@@ -2,6 +2,8 @@ def is_palindrome(input_string):
 	# We'll create two strings, to compare them
 	new_string = ""
 	reverse_string = ""
+	input_string = input_string.replace(" ", "")
+	input_string = input_string.lower()
 	# Traverse through each letter of the input string
 	for i in input_string:
 		# Add any non-blank letters to the 
