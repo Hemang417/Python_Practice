@@ -23,3 +23,6 @@ def groups_per_user(group_dictionary):
 print(groups_per_user({"local": ["admin", "userA"],
                        "public":  ["admin", "userB"],
                        "administrator": ["admin"]}))
+
+# Output: {'admin': ['local', 'public', 'administrator'], 'userA': ['local'], 'userB': ['public']}
+
