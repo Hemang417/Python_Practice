@@ -7,8 +7,6 @@
 # if a name is included in both dictionaries. Then print the resulting dictionary.
 
 
-
-
 def combine_guests(guests1, guests2):
 # Combine both dictionaries into one, with each key listed 
 # only once, and the value from guests1 taking precedence
