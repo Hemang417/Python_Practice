@@ -50,3 +50,7 @@ print("Johanna has {} apples and Martin has {} apples".format(
 exchange_ideas(johanna, martin)
 print("Johanna has {} ideas and Martin has {} ideas".format(
     johanna.ideas, martin.ideas))
+
+#Output:
+#Johanna has 2 apples and Martin has 1 apples
+# Johanna has 2 ideas and Martin has 2 ideas
