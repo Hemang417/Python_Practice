@@ -10,4 +10,4 @@ Drews_list = ["Mike", "Carol", "Greg", "Marcia"]
 print(combine_lists(Jamies_list, Drews_list))
 
 # Output:
-# [['Mike', 'Carol', 'Greg', 'Marcia', 'Peter', 'Jan', 'Bobby', 'Cindy', 'Alice']]
+# ['Mike', 'Carol', 'Greg', 'Marcia', 'Peter', 'Jan', 'Bobby', 'Cindy', 'Alice']
