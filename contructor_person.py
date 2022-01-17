@@ -9,3 +9,6 @@ class Person:
 some_person = Person("Hemang")
 # Call the greeting method
 print(some_person.greeting())
+
+#Output:
+#hi, my name is Hemang
