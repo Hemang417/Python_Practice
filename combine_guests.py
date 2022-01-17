@@ -8,3 +8,7 @@ Rorys_guests = { "Adam":2, "Brenda":3, "David":1, "Jose":3, "Charlotte":2, "Terr
 Taylors_guests = { "David":4, "Nancy":1, "Robert":2, "Adam":1, "Samantha":3, "Chris":5}
 
 print(combine_guests(Rorys_guests, Taylors_guests))
+
+#Output:
+# {'David': 1, 'Nancy': 1, 'Robert': 4, 'Adam': 2, 'Samantha': 3, 'Chris': 5, 
+# 'Brenda': 3, 'Jose': 3, 'Charlotte': 2, 'Terry': 1}
