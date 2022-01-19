@@ -11,3 +11,5 @@ print(file.readline())
 """If you are executing this read function after executing the readline function then the read function will 
 print the remaining lines present in teh file as it gets incremented to the next line default."""
 print(file.read())
+
+file.close()
