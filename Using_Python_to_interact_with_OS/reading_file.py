@@ -6,4 +6,8 @@ file = open("file_name")
 print(file.readline())
 """When executed again like this, this readline function moves to the next line of the file"""
 print(file.readline())
+"""This read function reads all the lines contained in the file."""
+"""If you are executing this read function after executing the readline function then the read function will 
+print the remaining lines present in teh file as it gets incremented to the next line default."""
+print(file.read())
 
