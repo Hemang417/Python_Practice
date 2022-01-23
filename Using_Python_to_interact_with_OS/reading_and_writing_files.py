@@ -1,3 +1,5 @@
+""" guests.txt file is attached """
+
 guests = open("guests.txt", "w")
 initial_guests = ["Bob", "Andrea", "Manuel", "Polly", "Khalid"]
 
@@ -9,6 +11,8 @@ guests.close()
 # with open("guests.txt") as guests:
 #     for line in guests:
 #         print(line)
+
+"""To append name of the new guests"""
 
 new_guests = ["Sam", "Danielle", "Jacob"]
 
@@ -34,21 +38,32 @@ with open("guests.txt", 'r+') as guests:
         if name not in checked_out:
             guests.truncate(name + "\n")
 
+"""This is to change the content inside the file for the people checking out"""
+
 checked_out=["Andrea", "Manuel", "Khalid"]
 temp_list=[]
+
+"""Reading file to append the name in a temporary list"""
 
 with open("guests.txt", 'r') as guests:
     for g in guests:
         temp_list.append(g.strip())
+
+"""Writing in the file for the poeple not checked out"""
 
 with open("guests.txt", 'w') as guests:
     for name in temp_list:
         if name not in checked_out:
             guests.write(name + "\n")
 
+"""Printing each line of text"""
+
 with open("guests.txt") as guests:
     for line in guests:
         print(line)
+
+
+"""This is to check if the guests are still checked in"""
 
 guests_to_check = ['Bob', 'Andrea']
 checked_in = []
