@@ -6,9 +6,9 @@ for i in initial_guests:
     
 guests.close()
 
-with open("guests.txt") as guests:
-    for line in guests:
-        print(line)
+# with open("guests.txt") as guests:
+#     for line in guests:
+#         print(line)
 
 new_guests = ["Sam", "Danielle", "Jacob"]
 
