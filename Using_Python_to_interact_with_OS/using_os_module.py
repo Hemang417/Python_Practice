@@ -14,3 +14,5 @@ os.path.getmtime("file_name")# returns a timestamp of the last modified
 datetime.datetime.fromtimestamp(timestamp) the variable timestamp consists of the timestamp we get from os.path.getmtime"""
 
 os.path.abspath("file_name")#returns absolute path of the file
+
+os.getcwd() # to get the current working directory
