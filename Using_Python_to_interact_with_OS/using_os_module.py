@@ -6,3 +6,5 @@ os.rename("old_name", "new_name")
 """os.path.exists gives boolean value in return as in: True or False"""
 os.path.exists("file_name") #if true the file exists
                             #if false the file does not exist
+
+os.path.getsize("file_name") # This returns file-size of the file in bytes
