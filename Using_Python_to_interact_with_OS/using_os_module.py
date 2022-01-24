@@ -8,3 +8,5 @@ os.path.exists("file_name") #if true the file exists
                             #if false the file does not exist
 
 os.path.getsize("file_name") # This returns file-size of the file in bytes
+
+os.path.getmtime("file_name")# returns a timestamp of the last modified 
