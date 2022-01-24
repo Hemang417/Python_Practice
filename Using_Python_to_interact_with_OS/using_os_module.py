@@ -19,3 +19,5 @@ os.getcwd() # to get the current working directory
 
 os.mkdir("directory_name") # to create a directory with the name of file_name
 os.chdir("directory_name") # to change the directories and move to the specified directory_name
+os.rmdir("directiory_name")# removes an directory only when the directory is empty
+os.listdir("directory_name") # lists the contents inside a directory
