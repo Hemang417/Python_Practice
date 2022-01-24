@@ -17,4 +17,5 @@ os.path.abspath("file_name")#returns absolute path of the file
 
 os.getcwd() # to get the current working directory
 
-os.mkdir("file_name") # to create a directory with the name of file_name
+os.mkdir("directory_name") # to create a directory with the name of file_name
+os.chdir("directory_name") # to change the directories and move to the specified directory_name
