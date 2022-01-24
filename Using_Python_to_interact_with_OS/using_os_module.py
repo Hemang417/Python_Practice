@@ -16,3 +16,5 @@ datetime.datetime.fromtimestamp(timestamp) the variable timestamp consists of th
 os.path.abspath("file_name")#returns absolute path of the file
 
 os.getcwd() # to get the current working directory
+
+os.mkdir("file_name") # to create a directory with the name of file_name
