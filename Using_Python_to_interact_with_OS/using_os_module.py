@@ -12,3 +12,5 @@ os.path.getsize("file_name") # This returns file-size of the file in bytes
 os.path.getmtime("file_name")# returns a timestamp of the last modified 
 """To convert this timestamp into date and time, we need to convert the folowwing using datetime module: 
 datetime.datetime.fromtimestamp(timestamp) the variable timestamp consists of the timestamp we get from os.path.getmtime"""
+
+os.path.abspath("file_name")#returns absolute path of the file
