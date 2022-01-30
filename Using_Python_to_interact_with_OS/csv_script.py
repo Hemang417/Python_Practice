@@ -4,6 +4,6 @@ f = open("csv_file.txt")
 csv_f = csv.reader(f)
 
 for row in csv_f:
-    name, phone = f
-    print("Name: {}, Phone: {}".format(name, phone))
+    name, phone, role = f
+    print("Name: {}, Phone: {}, Role: {}".format(name, phone, role))
 
