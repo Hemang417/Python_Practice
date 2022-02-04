@@ -3,7 +3,8 @@ import datetime
 
 def file_date(filename):
   # Create the file in the current directory
-  with open (filename,'w') as file:
+  with open (filename,'w') as file: 
+    """This line is to create a file in the current directory"""
     pass
   timestamp = os.path.getmtime(filename)
   c=datetime.datetime.fromtimestamp(timestamp)
