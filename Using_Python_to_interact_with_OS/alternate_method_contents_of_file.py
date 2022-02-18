@@ -18,15 +18,17 @@ def contents_of_file(filename):
   # Call the function to create the file 
   create_file(filename)
 
-  # Open the file
-  with open(filename) as file:
+ # Open the file
+  with open(filename, 'r') as f:
     # Read the rows of the file
-    rows = csv.reader(file)
+    rows = csv.reader(f)
+    # Skips the headers
+    next(rows) 
     # Process each row
     for row in rows:
-      name, type, color = row
+      name, color, typeflower = row
       # Format the return string for data rows only
-    return_string += "a {} {} is {}\n".format(name, type, color)
+      return_string += "a {} {} is {}\n".format(color, name, typeflower)
   return return_string
 
 #Call the function
