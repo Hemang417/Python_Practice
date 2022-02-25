@@ -1,1 +1,1 @@
-# Start of a new Python program
+#BLANK PROGRAM
