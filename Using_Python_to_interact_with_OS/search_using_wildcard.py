@@ -7,3 +7,6 @@ print(search_word)
 
 search_word_with_space = re.search(r"[a-z]way", "This is the way to hell")
 print(search_word_with_space)
+
+"""OUTPUT"""
+# None
