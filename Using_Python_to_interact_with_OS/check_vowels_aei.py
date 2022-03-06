@@ -6,3 +6,5 @@ def check_aei (text):
 print(check_aei("academia")) # True
 print(check_aei("aerial")) # False
 print(check_aei("paramedic")) # True
+
+"""Also we can pass in re.IGNORECASE to ignore the case of a string"""
