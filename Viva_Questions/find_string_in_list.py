@@ -2,7 +2,7 @@
 l = [1, 2.0, 'have', 'a', 'geeky', 'day']
 
 # assign string
-s = 'day'
+s = 'string'
 
 # check if string is present in the list
 if s in l:
